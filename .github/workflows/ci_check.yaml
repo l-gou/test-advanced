@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Checkout Repository'
-        uses: actions/chekout@v4
+        uses: actions/checkout@v4
       - name: 'Intsall SQLFluff'
         run: pip install sqlfluff
       - name: 'Lint SQL Files'
